@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+    </head>
+    <body>
+        <center>
+            <article>
+                <header>
+                    <h1>{{ article.name }}</h1>
+                </header>
+                <p>{{ article.content }}</p>
+                <footer>
+                    <time datetime="">{{ article.date|date('d-m-y') }}</time>
+                </footer>
+            </article>
+        </center>
+    </body>
+</html>
+
+
