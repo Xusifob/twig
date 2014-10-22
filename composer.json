@@ -1,0 +1,15 @@
+{
+    "name": "xusifob/twig-a2",
+    "description": "My first Twig Engine Template Biatch !",
+    "require": {
+        "twig/twig": "1.16.*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bastien MALAHIEUDE",
+            "email": "bastien@bastienmalahieude.fr"
+        }
+    ],
+    "minimum-stability": "stable"
+}
